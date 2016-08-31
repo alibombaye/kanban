@@ -72,11 +72,11 @@ ul {
 .card__title:before {
   display: inline-block;
   width: 1em;
-  content: 'arrowright.jpg';
+  content: url(arrowright.jpg);
 }
 
 .card__title--is-open:before {
-  content: 'arrowdown.jpg';
+  content: url(arrowdown.jpg);
 }
 
 .checklist__task:first-child {

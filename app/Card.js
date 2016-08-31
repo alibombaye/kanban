@@ -10,7 +10,7 @@ class Card extends Component {
                   {this.props.description}
                   <CheckList cardId={this.props.id} tasks={this.props.tasks} />
               </div>
-              </div>
+          </div>
         );
     }
 }
